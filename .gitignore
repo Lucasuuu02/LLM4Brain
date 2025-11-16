@@ -1,0 +1,209 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.venv
+.env
+env.bak/
+venv.bak/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ============================================
+# IDEs and Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# ============================================
+# Operating System Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Large Data Files (not included in repo)
+# ============================================
+# NumPy arrays and embeddings
+*.npy
+*.npz
+
+# fMRI data files (download separately)
+*.nii
+*.nii.gz
+*.mat
+*.hdr
+*.img
+
+# Exception: Keep essential mask files
+!LLM_fMRI_Alignment/code/GLM/grey_mask.nii.gz
+!LLM_fMRI_Alignment/code/GLM/masks_new/masks/*.nii.gz
+
+# ============================================
+# Model Files (too large for GitHub)
+# ============================================
+models/
+embeddings/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# ============================================
+# Result and Output Directories
+# ============================================
+# GLM results
+1stGLM/
+GLM_results/
+
+# Analysis results
+results/
+results_*/
+output/
+outputs/
+
+# Figures and visualizations
+figures/
+figures_*/
+plots/
+
+# ============================================
+# Cache and Temporary Files
+# ============================================
+*.cache
+.cache/
+nilearn_cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# Logs and Databases
+# ============================================
+*.log
+logs/
+*.sqlite
+*.db
+
+# ============================================
+# Analysis Output Files
+# ============================================
+output.json
+*.pkl
+*.pickle
+*.csv.gz
+*_betas.csv
+*_correlations.csv
+*_p_values.csv
+*_alphas.csv
+
+# Exception: Keep small example/template data
+!data/process_sentences_data/*.csv
+!Semantic_Similarity_Eval/data/*.csv
+
+# ============================================
+# Excel Temporary Files
+# ============================================
+~$*.xlsx
+~$*.xls
+*.xlk
+
+# ============================================
+# Compressed Files (usually data archives)
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ============================================
+# Testing
+# ============================================
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ============================================
+# Documentation
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# Project Specific
+# ============================================
+# Downloaded fMRI raw data
+LLM_fMRI_Alignment/data/sub-*/
+LLM_fMRI_Alignment/data/derivatives/
+
+# Local configuration
+config.local.json
+.env.local
+
+# Temporary experiment scripts
+scratch/
+temp/
+test_*.py
+
