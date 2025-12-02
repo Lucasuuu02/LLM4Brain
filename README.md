@@ -500,7 +500,7 @@ If you use the code or data from this project, please cite:
 
 ```bibtex
 @article{lei2025large,
-  title={Do Large Language Models Think Like the Brain? Sentence-Level Evidence from fMRI and Hierarchical Embeddings},
+  title={Do Large Language Models Think Like the Brain? Sentence-Level Evidences from Layer-Wise Embeddings and fMRI},
   author={Lei, Yu and Ge, Xingyang and Zhang, Yi and Yang, Yiming and Ma, Bolei},
   journal={arXiv preprint arXiv:2505.22563},
   year={2025}
